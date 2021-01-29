@@ -1,9 +1,10 @@
+// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');           
 const generateMarkdown = require("./utils/generateMarkdown");
 
-const promptUser = () =>
-  inquirer.prompt([
+const questions = [
     {
       type: 'confirm',
       name: 'start',
@@ -69,28 +70,23 @@ const promptUser = () =>
         name: 'license',
         Choices: ["MIT", "BSD2", "BSD3", "Apache 2.0"],
         message: "Select your license."
-      },
-
-
-    
-  ]);
-
-const generateHTML = (answers) =>
-  `<!DOCTYPE html>
-<html lang="en">
-
- 
-
-const init = () => {
-  promptUser().then((answers) => {
-    try {
-      const html = generateHTML(answers);
-      fs.writeFileSync('index.html', html);
-      console.log('Successfully wrote to index.html');
-    } catch (error) {
-      console.log(error);
     }
-  });
-};
+];
+
+  function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+      if (err) new Error(err);
+      console.log("README successfully created!");
+    });
+}
+
+  function init() {
+    inquirer.prompt(promptUser)
+      .then(answers => {
+        writeToFile("test.md", generateMarkdown(answers))
+      })
+      .catch(err => console.log(err));
+  }
+  
 
 init();
