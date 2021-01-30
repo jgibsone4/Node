@@ -11,12 +11,7 @@ const questions = [
     message:
       "This will generate a README file after you enter some information",
   },
-  {
-    type: "input",
-    name: "location",
-    message: "Where are you from?",
-  },
-  {
+   {
     type: "input",
     name: "name",
     message: "What is your name?",
@@ -58,13 +53,18 @@ const questions = [
   },
   {
     type: "input",
+    name: "usage",
+    message: "Usage:",
+  },
+  {
+    type: "input",
     name: "contributing",
     message: "Contributing:",
   },
   {
     type: "input",
-    name: "code of conduct",
-    message: "Code of Conduct:",
+    name: "tests",
+    message: "Test Instructions:",
   },
   {
     type: "list",
