@@ -52,6 +52,7 @@ ${data.tests}
 ## License
 Copyright (c) 2021 ${data.name}  
 Licensed under the ${data.license}
+[License Guidlines](/License.txt)
 ---
 ## Questions
 Reach me on [GitHub](https://www.github.com/${data.github})
