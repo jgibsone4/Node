@@ -6,8 +6,8 @@
 
 # Readme Creator
 
-
-<iframe src="https://drive.google.com/file/d/1CNJxKAyVDCnpU3rz8Ls6pFZrZZMrfHim/preview" width="640" height="480"></iframe>
+Walkthrough video:
+"https://drive.google.com/file/d/1CNJxKAyVDCnpU3rz8Ls6pFZrZZMrfHim/preview"
 
 ## Description 
 This will create an application the user access through the command-line. The result is a professional README.md file generated from the user input.
