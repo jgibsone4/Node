@@ -1,11 +1,11 @@
-# e
+# readme creator
 ![GitHub all releases](https://img.shields.io/github/downloads/jgibsone4/jgibsone4.github.io/total?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jgibsone4/jgibsone4.github.io?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/jgibsone4/jgibsone4.github.io?style=social)
 ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blue&style=flat-square)
   ---
   # Description
-  f
+  To create a readme in comman line
 ---
   ## Table of Contents
 
@@ -20,26 +20,27 @@
 
 ---
 ## Installation
-g
+no
 ---
 ## Usage
-y
+na
 ---
 ## Credits
-h
+na
 ---
 ## Contributing
-h
+na
 ---
 ## Tests
-g
+n
 
 ---
 ## License
-Copyright (c) 2021 abb  
-Licensed under the BSD3
+Copyright (c) 2021 Jason Gibson  
+Licensed under the BSD2
+[License Guidlines](/License.txt)
 ---
 ## Questions
-Reach me on [GitHub](https://www.github.com/c)
-Reach me on [LinkedIn](https://www.linkedin.com/d)  
-Reach me via email at <b>
+Reach me on [GitHub](https://www.github.com/jgibsone4)
+Reach me on [LinkedIn](https://www.linkedin.com/jgibsone4@linkedin)  
+Reach me via email at <jgibsone4@gmail.com>

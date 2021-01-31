@@ -4,18 +4,19 @@
 
 ---
 
-# Responsive Design
+# Readme Creator
 
+
+<iframe src="https://drive.google.com/file/d/1CNJxKAyVDCnpU3rz8Ls6pFZrZZMrfHim/preview" width="640" height="480"></iframe>
 
 ## Description 
-
-
+This will create an application the user access through the command-line. The result is a professional README.md file generated from the user input.
 
 
 
 ## Table of Contents
 
-* [Title](#responsive-design)
+* [Title](#readme-creator)
 * [Description](#description)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -26,15 +27,9 @@
 
 ## Usage 
 
-I have attached screenshots that I referenced for my project.
-
-![Screenshot of Client Site](https://github.com/jgibsone4/jgibsone4-urhw2/blob/main/Assets/768-contact.png)
-![Screenshot of Client Site](https://github.com/jgibsone4/jgibsone4-urhw2/blob/main/Assets/992-index.png)
-![Screenshot of Client Site](https://github.com/jgibsone4/jgibsone4-urhw2/blob/main/Assets/992-portfolio.png)
-
-
 
 ## Credits
+Amanda Wiehrs
 
 Collaborators                                   
 ------------                                   
